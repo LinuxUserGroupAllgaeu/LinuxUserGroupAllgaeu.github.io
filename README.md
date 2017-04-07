@@ -9,11 +9,11 @@ Die Treffen werden vorher hier und auf der [Mailingliste](http://listserv.primus
 
 ## April 2017
 
-| Datum:      | 8. April 2017 |
-|:------------|:--------------|
-| Uhrzeit:    | 18:00         |
-| Treffpunkt: | TBD           |
-| Thema:      | Grillen?      |
+| Datum:      | 8. April 2017                                                |
+|:------------|:-------------------------------------------------------------|
+| Uhrzeit:    | 16:00                                                        |
+| Treffpunkt: | Fenepark (Haupteingang), Ursulasrieder Str. 6, 87435 Kempten |
+| Thema:      | Wir grillen uns ein (T)Rump-Steak                            |
 
 &nbsp;
 
