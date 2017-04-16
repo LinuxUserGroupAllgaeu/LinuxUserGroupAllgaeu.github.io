@@ -1,0 +1,39 @@
+{% assign month = include.pagedate | date: "%-m" %}
+{% capture german_longdate %}
+{{ include.pagedate | date: "%-d. " }}
+{% case month %}
+  {% when '1' %}Januar
+  {% when '2' %}Februar
+  {% when '3' %}M&auml;rz
+  {% when '4' %}April
+  {% when '5' %}Mai
+  {% when '6' %}Juni
+  {% when '7' %}Juli
+  {% when '8' %}August
+  {% when '9' %}September
+  {% when '10' %}Oktober
+  {% when '11' %}November
+  {% when '12' %}Dezember
+{% endcase %}{{ include.pagedate | date: "%Y" }}{% endcapture %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Datum:</th>
+      <th style="text-align: left">{{ german_longdate }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Uhrzeit:</td>
+      <td style="text-align: left">{{ include.zeit }}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Treffpunkt:</td>
+      <td style="text-align: left">{{ include.treffpunkt }}</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Thema:</td>
+      <td style="text-align: left">{{ include.thema }}</td>
+    </tr>
+  </tbody>
+</table>
